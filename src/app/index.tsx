@@ -10,7 +10,7 @@ export default function Index() {
   const router = useRouter();
 
   function handleLogin() {
-    router.push("/(tabs)");
+    router.push("/dashboard");
   }
 
   return (
